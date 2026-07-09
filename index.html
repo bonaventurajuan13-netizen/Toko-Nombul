@@ -1,77 +1,144 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Nombul - Supermarket Kucing</title>
-  <style>
-    body {font-family: Arial; margin: 0; padding: 0; background: #fff5f5; text-align: center;}
-    header {background: #ff6b6b; color: white; padding: 20px;}
-    nav a {color: white; margin: 0 10px; text-decoration: none; font-weight: bold;}
-    .container {display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px;}
-    .produk {background: white; padding: 15px; border-radius: 10px; width: 90%; max-width: 300px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
-    .produk img {width: 100%; border-radius: 10px; height: 250px; object-fit: cover;}
-    .btn {display: inline-block; background: #25D366; color: white; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 8px;}
-    footer {background: #333; color: white; padding: 20px; margin-top: 30px; font-size: 14px;}
-    footer a {color: #ff6b6b; text-decoration: none;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Nombul - Aksesoris & Kebutuhan Kucing</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; background: #fffaf5; color: #333; }
+header { background: #ff8c42; color: white; text-align: center; padding: 20px; }
+header h1 { margin: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
+.card { background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 15px; text-align: center; }
+.card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+.card h3 { font-size: 16px; margin: 10px 0; min-height: 40px; }
+.btn { display: inline-block; background: #25D366; color: white; padding: 10px 15px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+.btn:hover { background: #1ebe5b; }
+footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 30px; font-size: 14px; }
+footer a { color: #ff8c42; text-decoration: none; }
+</style>
 </head>
 <body>
-  <header>
-    <h1>Toko Nombul 🐱</h1>
-    <p>Rekomendasi Produk Kucing Terbaik & Terlengkap</p>
-    <nav>
-      <a href="#produk">Produk</a>
-      <a href="#tentang">Tentang Kami</a>
-      <a href="#kontak">Kontak</a>
-    </nav>
-  </header>
 
-  <div id="tentang" style="padding:20px;">
-    <h2>Tentang Toko Nombul</h2>
-    <p>Toko Nombul adalah website rekomendasi produk kucing terbaik. Semua link mengarah ke Tokopedia resmi.</p>
+<header>
+  <h1>🐱 Toko Nombul</h1>
+  <p>Aksesoris & Kebutuhan Kucing Terlengkap</p>
+</header>
+
+<div class="grid">
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/1/1/ceo-ngantuk.jpg" alt="Baju kucing ceo ngantuk">
+    <h3>Baju kucing "ceo ngantuk"</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9Mfr2vpGVH7-AmRum/" class="btn" target="_blank">Beli di Tokopedia</a>
   </div>
 
-  <div id="produk" class="container">
-    
-    <div class="produk"><img src="produk1.jpg"><h2>Baju Kucing "CEO Ngantuk"</h2><p>Baju kucing gemes, bahan adem & nyaman</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyuXPsu5tR-OzurZ/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk2.jpg"><h2>Meat End Treat + Cat Grass</h2><p>Snack sehat + rumput kucing buat pencernaan</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyHpM2CPYd-vX5pU/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk3.jpg"><h2>Minyak Ikan Olive Care</h2><p>Vitamin bulu kucing makin lebat & sehat</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyHvxTu7M4-cSgRn/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk4.jpg"><h2>Tali Tuntun Hewan Peliharaan</h2><p>Ajak jalan-jalan kucing jadi aman & nyaman</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyVJ3oQ73T-xFeSR/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk5.jpg"><h2>Snack Kucing Me-O</h2><p>Camilan favorit kucing, rasa gurih disukai</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyVLA3mydJ-OOJr5/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk6.jpg"><h2>Native Plus Gel Vitamin Kucing</h2><p>Vitamin penambah nafsu makan & daya tahan</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyqJ13P2KT-40HXd/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk7.jpg"><h2>Freeze Dried Snack Dada Ayam</h2><p>Snack premium 100% daging ayam asli</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyqNds35sG-8a4Jd/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk8.jpg"><h2>Obat Cacing O-Cing Holycatlabs</h2><p>Basmi cacing biar kucing sehat & gemuk</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9Myqa4jRpjw-QXKnx/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk9.jpg"><h2>Focat Tempat Makan & Minum</h2><p>Tempat makan anti tumpah, desain modern</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyqCQVJsCS-EbmRL/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk10.jpg"><h2>Mr Vet Cat Pouch Makanan Basah</h2><p>Makanan basah kaleng, nutrisi lengkap</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MyppnHUhHf-Qz9za/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk11.jpg"><h2>Loveabowl Makanan Basah</h2><p>Wet food premium, bikin kucing lahap makan</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9Mypt3Dn85v-e41iz/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk12.jpg"><h2>Cassiel Anti Kutu & Jamur</h2><p>Sampo khusus basmi kutu & jamur kulit</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9Mypcqd7Vam-zMY2G/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk13.jpg"><h2>Pawsitive Vibes Parfum Kucing</h2><p>Bikin bulu kucing wangi tahan lama</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9Mys1fWKgEX-Wfw4H/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk14.jpg"><h2>Catapaw Susu Bayi Kucing</h2><p>Pengganti ASI untuk kitten baru lahir</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MysRrtgxWa-0FgQb/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk15.jpg"><h2>Tt Mui Papan Garuk Kucing</h2><p>Mainan + tempat garuk biar sofa aman</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MysD99AT9q-9CikB/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk16.jpg"><h2>Elope VCO Extra Virgin Coconut Oil</h2><p>Minyak kelapa buat kesehatan kulit & bulu</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MysLEywdsk-1M4YR/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk17.jpg"><h2>Clever Solution Vitamin Omega 3</h2><p>Vitamin omega 3 untuk otak & bulu kucing</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MysSBKU5KH-5hths/" target="_blank">Beli di Tokopedia</a></div>
-    <div class="produk"><img src="produk18.jpg"><h2>Oyisi 10-150pcs Camilan Kucing</h2><p>Camilan murah meriah isi banyak</p><a class="btn" href="https://vt.tokopedia.com/t/ZS9MysAkvot9s-0pVux/" target="_blank">Beli di Tokopedia</a></div>
-
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/2/1/cat-grass.jpg" alt="Meat end treat cat grass">
+    <h3>Meat end treat cat grass</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MfrM3bFfL4-U5G38/" class="btn" target="_blank">Beli di Tokopedia</a>
   </div>
 
-  <footer id="kontak">
-    <h3>Kontak & Informasi</h3>
-    <p>Email: tokonomul@gmail.com</p>
-    <p>© 2026 Toko Nombul. Semua Hak Dilindungi.</p>
-    <p><a href="#kebijakan">Kebijakan Privasi</a> | <a href="#syarat">Syarat & Ketentuan</a></p>
-    <p style="font-size:12px;">Disclaimer: Toko Nombul adalah website afiliasi. Kami dapat komisi dari pembelian melalui link di atas.</p>
-  </footer>
-
-  <div id="kebijakan" style="padding:20px; text-align:left; max-width:800px; margin:auto;">
-    <h2>Kebijakan Privasi</h2>
-    <p>Kami menghargai privasi Anda. Data yang dikumpulkan hanya untuk meningkatkan pengalaman di Toko Nombul.</p>
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/3/1/olive-care.jpg" alt="Minyak ikan olive care">
+    <h3>Minyak ikan olive care</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MfrkLTejXg-kF8v7/" class="btn" target="_blank">Beli di Tokopedia</a>
   </div>
 
-  <div id="syarat" style="padding:20px; text-align:left; max-width:800px; margin:auto;">
-    <h2>Syarat & Ketentuan</h2>
-    <p>Dengan mengakses situs ini, Anda setuju dengan syarat kami. Semua produk dijual oleh Tokopedia.</p>
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/4/1/tali-tuntun.jpg" alt="Tali tuntun hewan peliharan">
+    <h3>Tali tuntun hewan peliharan</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyVJ3oQ73T-xFeSR/" class="btn" target="_blank">Beli di Tokopedia</a>
   </div>
-  
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/5/1/meo-snack.jpg" alt="Snack kucing me-o">
+    <h3>Snack kucing me-o</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyVLA3mydJ-OOJr5/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/6/1/native-plus.jpg" alt="Native plus gel vitamin kucing">
+    <h3>Native plus gel vitamin kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyqJ13P2KT-40HXd/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/7/1/freeze-dried.jpg" alt="Freeze dried snack dada ayam">
+    <h3>Freeze dried snack dada ayam</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyqNds35sG-8a4Jd/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/8/1/ocing.jpg" alt="Obat cacing o-cing holycatlabs">
+    <h3>Obat cacing o-cing holycatlabs</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9Myqa4jRpjw-QXKnx/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/9/1/focat.jpg" alt="Focat tempat makan minum">
+    <h3>Focat tempat makan & minum kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyqCQVJsCS-EbmRL/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/10/1/mrvet.jpg" alt="Mr vet cat pouch">
+    <h3>Mr vet cat pouch makanan basah kaleng</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MyppnHUhHf-Qz9za/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/11/1/loveabowl.jpg" alt="Loveabowl makanan basah">
+    <h3>Loveabowl makanan basah</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9Mypt3Dn85v-e41iz/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/12/1/cassiel.jpg" alt="Cassiel pet sampo kucing">
+    <h3>Cassiel pet anti kutu & jamur sampo kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9Mypcqd7Vam-zMY2G/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/13/1/parfum.jpg" alt="Pawsitive vibes parfum">
+    <h3>Pawsitive vibes parfum kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9Mys1fWKgEX-Wfw4H/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/14/1/catapaw.jpg" alt="Catapaw susu bayi kucing">
+    <h3>Catapaw susu bayi kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MysRrtgxWa-0FgQb/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/15/1/elope.jpg" alt="Elope vco">
+    <h3>Elope puco extra virgin coconut oil</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MysLEywdsk-1M4YR/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/16/1/omega.jpg" alt="Clever solution omega 3">
+    <h3>Clever solution vitamin omega 3</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MysSBKU5KH-5hths/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/17/1/papan-garuk.jpg" alt="Papan garuk kucing">
+    <h3>Tt mui papan garuk kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MysD99AT9q-9CikB/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+
+  <div class="card">
+    <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2024/18/1/oyisi.jpg" alt="Oyisi camilan kucing">
+    <h3>Oyisi 10-150pcs camilan kucing</h3>
+    <a href="https://vt.tokopedia.com/t/ZS9MysAkvot9s-0pVux/" class="btn" target="_blank">Beli di Tokopedia</a>
+  </div>
+</div>
+
+<footer>
+  <p><a href="#">Kebijakan Privasi</a> | <a href="#">Syarat & Ketentuan</a> | <a href="#">Kontak</a></p>
+  <p>© 2026 Toko Nombul. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
